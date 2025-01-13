@@ -46,3 +46,40 @@
 // }
 
 // export default App
+
+
+
+
+// Using a star toggle : 
+
+// Code: 
+// import './App.css'
+// import Header from "./Header"
+// import Form from "./Form"
+// import React from 'react'
+// import starEmpty from "./assets/starEmpty.png"
+// import starFilled from "./assets/starFilled.png"
+// function App() {
+//   const [star,setStar]= React.useState({
+//     isFavorite: true
+//   })
+//   let starIcon = star.isFavorite ? starFilled : starEmpty
+//   function toggleFavorite() {
+//     setStar((prevState) => ({
+//       isFavorite: !prevState.isFavorite,
+//     }));
+// }
+//   return (
+//     <>
+//   <Header/>
+//   <Form/>
+//   <main>
+//     <button onClick = {toggleFavorite}>
+//     <img
+//     src={starIcon}></img></button>
+//   </main>
+//     </>
+//   )
+// }
+
+// export default App
